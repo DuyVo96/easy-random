@@ -1,5 +1,5 @@
 function random(min, max) {
-  return Math.floor(Math.random() * (max - min) + 50 - 10) + min;
+  return Math.floor(Math.random() * (max - min) + 110101) + min;
 }
 
 module.exports = random;
